@@ -1303,7 +1303,7 @@ input, select, textarea {
 			width: 7.5rem;
 			height: 7.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 3px #ffffff;
 			border-radius: 100%;
 		}
 
