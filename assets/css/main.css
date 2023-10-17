@@ -1366,11 +1366,7 @@ input, select, textarea {
 				}
 
 				#header nav ul li a {
-					display: block;
-					min-width: 7.5rem;
-					height: 2.75rem;
-					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 0 0.5rem 0 0.85rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
@@ -1480,16 +1476,14 @@ input, select, textarea {
 				}
 
 				#header nav ul {
-					-moz-flex-direction: column;
-					-webkit-flex-direction: column;
-					-ms-flex-direction: column;
-					flex-direction: column;
-					min-width: 10rem;
-					max-width: 100%;
+					display: flex;
+					margin-bottom: 0;
+					list-style: none;
+					padding-left: 0;
+					border-radius: 25px;
 				}
 
 					#header nav ul li {
-						border-left: 0;
 						border-top: solid 1px #ffffff;
 					}
 
@@ -1498,8 +1492,6 @@ input, select, textarea {
 						}
 
 						#header nav ul li a {
-							height: 3rem;
-							line-height: 3rem;
 							min-width: 0;
 							width: 100%;
 						}
