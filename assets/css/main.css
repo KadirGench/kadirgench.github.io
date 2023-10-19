@@ -1259,10 +1259,10 @@ input, select, textarea {
 				content: '';
 				display: block;
 				position: absolute;
-				bottom: calc(-3.5rem - 1px);
+				bottom: calc(-0.5rem - 1px);
+				height: calc(2.5rem + 1px);
 				left: calc(50% - 1px);
 				width: 1px;
-				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
 
@@ -1418,8 +1418,8 @@ input, select, textarea {
 			}
 
 				#header .logo:before {
-					bottom: calc(-2rem - 1px);
-					height: calc(2rem + 1px);
+					bottom: calc(-0.5rem - 1px);
+					height: calc(2.5rem + 1px);
 				}
 
 			#header .logo {
