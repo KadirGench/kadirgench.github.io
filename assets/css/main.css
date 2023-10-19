@@ -1252,7 +1252,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 0.5rem;
+			margin-top: 0.09rem;
 		}
 
 			#header .logo:before {
@@ -1413,7 +1413,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header > * {
-				margin-top: 0.5rem;
+				margin-top: 0.09rem;
 			}
 
 				#header .logo:before {
