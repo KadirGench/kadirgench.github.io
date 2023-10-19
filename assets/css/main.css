@@ -1294,6 +1294,17 @@ input, select, textarea {
 			border-radius: 100%;
 			margin-bottom: 2rem;
 		}
+		
+			#header .logo:hover {
+						border-radius: 30%;
+					}
+
+					#header .logo:active {
+						border-radius: 15%;
+					}
+		
+		
+		
 
 			#header .logo .icon:before {
 				font-size: 2rem;
