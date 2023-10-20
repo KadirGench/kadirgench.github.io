@@ -1155,6 +1155,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+			/* background-image: url("../../images/background.jpg"); Example to put from files*/
 			background-image: url("https://images.unsplash.com/photo-1506318137071-a8e063b4bec0");
 			background-position: center;
 			background-size: cover;
@@ -1295,6 +1296,9 @@ input, select, textarea {
 			margin-bottom: 2rem;
 		}
 		
+		
+		@media screen and (min-width: 600px) {
+		
 			#header .logo:hover {
 						border-radius: 30%;	
 					}
@@ -1311,12 +1315,13 @@ input, select, textarea {
 			#header .logo img:active {
 						transform: rotate(-45deg);
 						height: 120%;
-					}
+					}		
 			
 
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
+		}	
 
 		#header .content {
 			border-style: solid;
