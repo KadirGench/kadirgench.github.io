@@ -1638,17 +1638,16 @@ input, select, textarea {
 	}
 		
 		#footer .KadirGenchDesign {
-			letter-spacing: 0.2rem;
-			font-size: 0.5rem;
-			opacity: 0.75;
+			letter-spacing: 0.1rem;
+			font-size: 0.6rem;
 			margin-bottom: 0rem;
 			text-transform: uppercase;
 		}
 		
 		#footer .html5UpDesign {
-			letter-spacing: 0.2rem;
+			letter-spacing: 0.1rem;
 			font-size: 0.5rem;
-			opacity: 0.3;
+			opacity: 0.6;
 			margin-bottom: 0rem;
 			text-transform: uppercase;
 		}
