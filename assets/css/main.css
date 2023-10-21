@@ -1312,12 +1312,10 @@ input, select, textarea {
 			
 			#header .logo img:hover {
 						transform: rotate(45deg);
-						height: 115%;
 					}
 					
 			#header .logo img:active {
 						transform: rotate(-45deg);
-						height: 120%;
 					}		
 			
 
