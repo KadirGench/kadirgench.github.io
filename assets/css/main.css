@@ -1282,8 +1282,8 @@ input, select, textarea {
 	}
 	
 	.logo img {
-   		 width: 101%;
-   		 height: 120%;
+   		 width: 100%;
+   		 height: 105%;
 	}
 
 
@@ -1298,14 +1298,17 @@ input, select, textarea {
 		
 		
 		@media screen and (min-width: 600px) {
-		
-			#header .logo:hover {
-						border-radius: 30%;	
-					}
+			
+			/* Seems good but these two codes need more code which require  to increase the logo width and height in some time look again to fix the issue. */
+			/* #header .logo:hover { */
+						/* border-radius: 30%;	 */
+					/* } */
 
-			#header .logo:active {
-						border-radius: 15%;  
-					}
+			/* #header .logo:active { */
+						/* border-radius: 15%;   */
+					/* } */
+			/* Seems good but these two codes need more code which require  to increase the logo width and height in some time look again to fix the issue. */
+			
 			
 			#header .logo img:hover {
 						transform: rotate(45deg);
