@@ -1,0 +1,36 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Idea | Kadir Gench</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body class="separate-page">
+
+  <header class="separate-header">
+    <a href="index.html">KADIR GENCH</a>
+    <a href="index.html">← Home</a>
+  </header>
+
+  <main class="separate-content">
+
+    <h1>Idea</h1>
+
+    <img src="images/idea.jpg" alt="Kadir Gench ideas">
+
+    <p>
+      I create ideas for games, stories and digital worlds.
+      I am interested in game development, acting, writing and technology.
+    </p>
+
+    <p>
+      This page contains my creative projects, concepts and future dreams.
+    </p>
+
+  </main>
+
+</body>
+</html>
