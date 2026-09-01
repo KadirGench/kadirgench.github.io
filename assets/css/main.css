@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1668,3 +1671,45 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.separate-page {
+  background: #0b0d16;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.separate-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 7%;
+  border-bottom: 1px solid #333a50;
+}
+
+.separate-header a {
+  color: #66f2c2;
+  text-decoration: none;
+}
+
+.separate-content {
+  max-width: 850px;
+  margin: 60px auto;
+  padding: 0 25px;
+}
+
+.separate-content h1 {
+  color: #66f2c2;
+}
+
+.separate-content img {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.separate-content p {
+  color: #c2c7d8;
+  font-size: 18px;
+  line-height: 1.7;
+}
